@@ -17,6 +17,16 @@ let authenticate = function()
         {
            // console.log('here')
             store_teams()
+            if(localStorage.getItem('football')==null)
+            {
+                 f_data = {"req_data":[]}
+                localStorage.setItem('football',JSON.stringify(f_data))
+            }
+            if(localStorage.getItem('basketball')==null)
+            {
+                b_data = {"req_data":[]}
+                 localStorage.setItem('basketball',JSON.stringify(b_data))
+            }                                       
             localStorage.setItem('date',temp)
         }
     }
@@ -35,10 +45,6 @@ let authenticate = function()
             if(sc==system_code)
             {
                 localStorage.setItem('cricket','present')
-                f_data = {"req_data":[]}
-                b_data = {"req_data":[]}
-                localStorage.setItem('football',JSON.stringify(f_data))
-                localStorage.setItem('basketball',JSON.stringify(b_data))
                 localStorage.setItem('num1','13')
                 localStorage.setItem('num2','91')
                 localStorage.setItem('counter','1')
