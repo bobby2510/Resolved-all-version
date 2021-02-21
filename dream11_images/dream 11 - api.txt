@@ -1,5 +1,0 @@
-url : https://cricket-api-free.herokuapp.com/
-
-proxy: https://cors-anywhere.herokuapp.com/
-
-main website: dream11-generator.herokuapp.com
