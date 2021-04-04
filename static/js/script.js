@@ -12,6 +12,37 @@ if(sh<750)
         e.style.height=`${(sh*0.45)}px`
     })
 }
+side_img_one_arr = [1,5,3]
+side_img_two_arr = [4,2,6]
+let one_func = function()
+{
+    span_element = document.querySelector('#side_img_one_value')
+    side_img_one_value = parseInt(span_element.textContent)
+    if(side_img_one_value == side_img_one_arr.length-1)
+        side_img_one_value=0
+    else
+    side_img_one_value++
+    span_element.textContent = side_img_one_value
+    // now changing the image part
+    side_img_one = document.querySelector('#side_img_one')
+    side_img_one.src = `dream11_images/${side_img_one_arr[side_img_one_value]}.jpg`
+
+}
+let two_func = function()
+{
+    span_element = document.querySelector('#side_img_two_value')
+    side_img_two_value = parseInt(span_element.textContent)
+    if(side_img_two_value == side_img_two_arr.length-1)
+        side_img_two_value=0
+    else
+        side_img_two_value++
+    span_element.textContent=side_img_two_value
+    // now changing the image part
+    side_img_two = document.querySelector('#side_img_two')
+    side_img_two.src = `dream11_images/${side_img_two_arr[side_img_two_value]}.jpg`
+}
+setInterval(one_func,8000)
+setInterval(two_func,8000)
 refresh_id = document.querySelector("#refresh_id")
 refresh_id.addEventListener('click',()=>
 {
