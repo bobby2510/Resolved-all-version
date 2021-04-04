@@ -5,6 +5,14 @@
     margin:15px;
     border-radius: 5px;;
 }
+.side_img
+{
+    width: 250px;
+    height:500px;
+    margin:10px;
+    box-shadow: 0px 0px 10px darkgray;
+    border-radius: 5px;
+}
 .dp-vp
 {
     max-width: 500px;
@@ -303,6 +311,12 @@
         display:none;
     }
 @media only screen and (max-width: 450px) {
+    #side_one{
+        display: none;
+    }
+    #side_two{
+        display: none;
+    }
     #footer_content
     {
         display:none;
