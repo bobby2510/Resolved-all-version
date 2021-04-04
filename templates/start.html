@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="style.css">
     <title>Dream 11 Team Generator</title>
     <style type="text/css" media="print">
       #home_id{
@@ -24,10 +24,10 @@
   <body>
     <nav  style="background-color:#1a0000; color:white;" id="desktop_nav">
         <div class="container" id="vp_panel">
-           <div class="d-flex align-items-center"> <img src="dream11_images/logo.jpg" class="mt-4" width="130px" height="30px" alt=""><h3 class="mt-4 pt-1 ml-2">- Team Generator</h3></div>
+           <div class="d-flex align-items-center"> <img src="dream11_images/dream11_logo.jpg" class="mt-4" width="130px" height="30px" alt=""><h3 class="mt-4 pt-1 ml-2">- Team Generator</h3></div>
             <div class="d-flex justify-content-around">
                 <div >
-                    <img  width="326px" height="243px" src="dream11_images/logo.jpg" alt=""> 
+                    <img  width="326px" height="243px" src="dream11_images/dream11_player_logo.jpg" alt=""> 
                 </div>
                <div>
                    <img  width="90px" height="68px" src="dream11_images/dream11_ipl.jpg" alt="">
@@ -59,7 +59,7 @@
         <img src="dream11_images/owner.jpg" style="width: 200px;" >
       </div>
       <div class="d-flex m-2 mt-4 flex-column justify-content-start align-items-center">
-        <div class="text-center">special thanks to santosh kumar.</div>
+        <span>special thanks to santosh kumar.</span>
         <span>All Rights Reserved.</span>
         <span>&copy; believer01</span>
         <span>Team Generator Ltd</span>
@@ -70,18 +70,24 @@
         <button class="navbar-toggler" type="button" >
           <span class="navbar-toggler-icon" onclick="openNav()"></span>
         </button>
-        <img src="dream11_images/logo.jpg" width="130px" height="30px" alt="" style="border-radius: 5px;">
+        <img src="dream11_images/dream11_logo.jpg" width="130px" height="30px" alt="">
       </div>
     </nav>
    
-      
+    <div class="d-flex align-items-center justify-content-around">
+      <div id="side_one">
+        <span id="side_img_one_value" style="display: none;">0</span>
+       <img src="dream11_images/1.jpg" id="side_img_one" class="side_img">
+      </div>
+
     <!-- array csk-1 , rcb - 2 , srh -3 , mi - 4, kxip-5, dc - 6, rr-7, kkr-8-->
-    <div class="d-flex flex-column jusitfy-content-around align-items-center flex-wrap">
-      <div class="d-flex justify-content-between container align-items-center">
+    <div class="d-flex flex-column jusitfy-content-around align-items-center flex-wrap" style="width: 1000px;">
+      <div class="d-flex justify-content-between container align-items-center" style="max-width: 1000px;">
           <span class="btn btn-primary mt-2 btn-sm" id="home_id"><i class="fa fa-home"></i> go to Home</span>
           <span class="btn btn-danger mt-2 btn-sm" id="refresh_id"><i class="fa fa-youtube-play"></i> subscribe us</span>
       </div>
-      <div class="container">
+      
+      <div class="container" style="max-width: 1000px;">
         <!--error part start-->
         <div class="alert alert-danger text-center mt-4" id="danger_alert" style="display: none;" role="alert">
           </div>
@@ -1222,6 +1228,11 @@
         <!--update palyer points end -->
         </div>
     </div>
+    <div id="side_two">
+      <span id="side_img_two_value" style="display: none;">0</span>
+      <img src="dream11_images/4.jpg" alt="" id="side_img_two" class="side_img">
+    </div>
+    </div>
    <div class="my-footer d-flex flex-column justify-content-start text-center bg-dark"  style="visibility:initial;" id="footer_vp">
      <strong>&copy; Believer 01</strong>
      <span>All rights reserved</span>
@@ -1231,24 +1242,24 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <script src="js/error.js" defer ></script>
-    <script src="js/create_series.js" defer ></script>
-    <script src="js/update_player_count.js" defer ></script>
-    <script src="js/cricket.js" defer ></script>
-    <script src="js/dynamic_team.js" defer ></script>
-    <script src="js/mode.js" defer ></script>
-    <script src="js/custom_match.js" defer ></script>
-    <script src="js/analytic.js" defer ></script>
-    <script src="js/shortcut_print.js" defer ></script>
-    <script src="js/fixed_player.js" defer ></script>
-    <script src="js/captain.js" defer ></script>
-    <script src="js/vice_captain.js" defer ></script>
-    <script src="js/change_data.js" defer></script>
-    <script src="js/team_generation_helper.js" defer ></script>
-    <script src="js/team_generation.js" defer ></script>
-    <script src="js/helper_script_one.js" defer ></script>
-    <script src="js/match_result.js" defer ></script>
-    <script src="js/team_player.js" defer ></script>
-    <script src="js/script.js" defer ></script>
+    <script src="error.js" defer ></script>
+    <script src="create_series.js" defer ></script>
+    <script src="update_player_count.js" defer ></script>
+    <script src="cricket.js" defer ></script>
+    <script src="dynamic_team.js" defer ></script>
+    <script src="mode.js" defer ></script>
+    <script src="custom_match.js" defer ></script>
+    <script src="analytic.js" defer ></script>
+    <script src="shortcut_print.js" defer ></script>
+    <script src="fixed_player.js" defer ></script>
+    <script src="captain.js" defer ></script>
+    <script src="vice_captain.js" defer ></script>
+    <script src="change_data.js" defer></script>
+    <script src="team_generation_helper.js" defer ></script>
+    <script src="team_generation.js" defer ></script>
+    <script src="helper_script_one.js" defer ></script>
+    <script src="match_result.js" defer ></script>
+    <script src="team_player.js" defer ></script>
+    <script src="script.js" defer ></script>
 </body>
 </html>
