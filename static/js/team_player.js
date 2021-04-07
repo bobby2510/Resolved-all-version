@@ -44,7 +44,64 @@ json_data={
      "series_code": "IPL2021",
       "number_teams": 8,
        "team_list": ["RCB", "MI","KKR","SRH","CSK","KXIP","RR","DC"],
-        "teams": []
+        "teams": [
+          {"team_name": "RCB",
+               "players_name":[],
+                "players_role": [], 
+                "players_credits": [], 
+                "players_image": [], 
+                "players_id": []
+                },
+          {"team_name": "MI",
+               "players_name":[],
+                "players_role": [], 
+                "players_credits": [], 
+                "players_image": [], 
+                "players_id": []
+                },
+          {"team_name": "KKR",
+               "players_name":[],
+                "players_role": [], 
+                "players_credits": [], 
+                "players_image": [], 
+                "players_id": []
+                },
+          {"team_name": "SRH",
+               "players_name":[],
+                "players_role": [], 
+                "players_credits": [], 
+                "players_image": [], 
+                "players_id": []
+                },
+          {"team_name": "CSK",
+               "players_name":[],
+                "players_role": [], 
+                "players_credits": [], 
+                "players_image": [], 
+                "players_id": []
+                },
+          {"team_name": "KXIP",
+               "players_name":[],
+                "players_role": [], 
+                "players_credits": [], 
+                "players_image": [], 
+                "players_id": []
+                },
+          {"team_name": "RR",
+               "players_name":[],
+                "players_role": [], 
+                "players_credits": [], 
+                "players_image": [], 
+                "players_id": []
+                },
+          {"team_name": "DC",
+               "players_name":[],
+                "players_role": [], 
+                "players_credits": [], 
+                "players_image": [], 
+                "players_id": []
+                }
+        ]
 }
   ]
 }
