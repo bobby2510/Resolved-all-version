@@ -41,7 +41,7 @@ json_data={
     {"series_name": "SA VS PAK", "series_code": "SVP", "number_teams": 2, "team_list": ["SA", "PAK"], "teams": [{"team_name": "SA", "players_name": ["Q Kock", "H Klaasen", "K Verreynne", "D Miller", "A Markram", "J Malan", "R der-Dussen", "T Bavuma", "W Mulder", "JJ Smuts", "L Williams", "K Maharaj", "A Phehlukwayo", "A Nortje", "B Hendricks", "L Ngidi", "J Dala", "K Rabada", "D Dupavillon", "L Sipamla", "S Magala", "T Shamsi"], "players_role": [1, 1, 1, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 4, 4, 4, 4, 4, 4, 4, 4, 4], "players_credits": [9.5, 8.5, 8.0, 9.0, 9.0, 8.5, 8.5, 9.0, 8.5, 9.0, 8.0, 8.5, 9.0, 9.0, 8.5, 8.5, 8.5, 9.0, 8.0, 8.0, 8.5, 8.5], "players_image": [6575, 6576, 0, 6578, 6579, 6580, 6581, 6582, 6583, 6584, 6585, 6586, 6587, 6588, 6589, 6590, 0, 6592, 0, 0, 6595, 6596], "players_id": [6575, 6576, 6577, 6578, 6579, 6580, 6581, 6582, 6583, 6584, 6585, 6586, 6587, 6588, 6589, 6590, 6591, 6592, 6593, 6594, 6595, 6596]}, {"team_name": "PAK", "players_name": ["M Rizwan", "S Ahmed", "H Ali", "F Zaman", "Imam-ul-Haq", "A Shafiq", "D Aziz", "A Ali", "B Azam", "F Ashraf", "M Nawaz", "M Wasim", "S Khan", "H Rauf", "M Hasnain", "S Afridi", "U Qadir", "Hasan-Ali"], "players_role": [1, 1, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 4, 4, 4, 4, 4], "players_credits": [9.5, 8.5, 8.5, 8.5, 8.5, 8.0, 8.0, 8.5, 10.0, 9.0, 9.0, 8.5, 9.5, 8.5, 8.5, 9.0, 8.5, 8.5], "players_image": [6597, 6598, 6599, 6600, 6601, 6602, 0, 6604, 6605, 6606, 6607, 0, 6609, 6610, 6611, 6612, 6613, 6614], "players_id": [6597, 6598, 6599, 6600, 6601, 6602, 6603, 6604, 6605, 6606, 6607, 6608, 6609, 6610, 6611, 6612, 6613, 6614]}]},
    {
     "series_name": "IPL 2021 LEAGUE",
-     "series_code": "IPL2021",
+     "series_code": "IPL21",
       "number_teams": 8,
        "team_list": ["RCB2021", "MI2021","KKR2021","SRH2021","CSK2021","PK2021","RR2021","DC2021"],
         "teams": [
@@ -75,12 +75,12 @@ json_data={
                 "players_image": [], 
                 "players_id": []
                 },
-          {"team_name": "CSK2021",
-               "players_name":[],
-                "players_role": [], 
-                "players_credits": [], 
-                "players_image": [], 
-                "players_id": []
+           {"team_name": "CSK2021",
+               "players_name":["N Jagadeesan","M Dhoni","C Pujara","C H Nishanth","R Uthappa","R Gaikwad","A Rajudu","S Raina","F d Plessis","B Varma","M Santner","K Gowtham","M Ali","R Jadeja","S Curran","K Sharama","J Behrendorff","R S Kishore","K Asif","H Reddy","D Bravo","I Tahir","D Chahar","S Thakur","L Ngidi"],
+                "players_role": [1,1,2,2,2,2,2,2,2,3,3,3,3,3,3,4,4,4,4,4,4,4,4,4,4], 
+                "players_credits": [8,9,8,8,8.5,8.5,9,9.5,9.5,7.5,8,8,8.5,9,9,8,8,8,8,8,8.5,8.5,8.5,8.5,8.5], 
+                "players_image":[9050,9051,9052,9053,9054,9055,9056,9057,9058,9059,9060,9061,9062,9063,9064,9065,9066,9067,9068,9069,9070,9071,9072,9073,9074], 
+                "players_id": [9050,9051,9052,9053,9054,9055,9056,9057,9058,9059,9060,9061,9062,9063,9064,9065,9066,9067,9068,9069,9070,9071,9072,9073,9074]
                 },
           {"team_name": "PK2021",
                "players_name":[],
@@ -97,11 +97,11 @@ json_data={
                 "players_id": []
                 },
           {"team_name": "DC2021",
-               "players_name":[],
-                "players_role": [], 
-                "players_credits": [], 
-                "players_image": [], 
-                "players_id": []
+               "players_name":["S Billings","R Pant","V Vinod","R Patel","A Rahane","S Hetmyer","P Shaw","S Smith","S Dhawan","L Yadav","C Woaks","A Patel","M Stoinis","M Siddharth","A Khan","T Curran","P Dubey","L Meriwala","I Sharma","A Mishra","R Ashwin","U Yadav","K Rabada","A Nortje"],
+                "players_role":[1,1,2,2,2,2,2,2,2,3,3,3,3,4,4,4,4,4,4,4,4,4,4,4], 
+                "players_credits": [8.5,9.5,8,8,8.5,8.5,8.5,9,10,8,8.5,8.5,9,7.5,8,8,8,8,8.5,8.5,8.5,8.5,9,9], 
+                "players_image": [9075,9076,9077,9078,9079,9080,9081,9082,9083,9084,9085,9086,9087,9088,9089,9090,9091,9092,9093,9094,9095,9096,9097,9098], 
+                "players_id":[9075,9076,9077,9078,9079,9080,9081,9082,9083,9084,9085,9086,9087,9088,9089,9090,9091,9092,9093,9094,9095,9096,9097,9098]
                 }
         ]
 }
